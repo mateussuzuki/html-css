@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font: bold;
+        }
+        a:visited{
+            color: aqua;
+        }
+        a.especial{
+            color: blue;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: aqua;
+        }
+        a:active{
+            color: yellow;
+        }
+        .especial::before{
+            content: '->';
+        }
+        .especial::after{
+            content: '<-';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li>
+            <a href="https://www.primevideo.com/detail/0HLDL6JTNVIK6GJDH0UIW4TES8/ref=atv_dp_season_select_s3">Repósitório Guthub</a>
+        </li>
+        <li>
+            <a href="https://www.primevideo.com/detail/0HLDL6JTNVIK6GJDH0UIW4TES8/ref=atv_dp_season_select_s3" class="especial">Canal do Youtube</a>
+        </li>
+        <li>
+            <a href="https://myanimelist.net/anime/50346/Yofukashi_no_Uta">Site do curso em video</a>
+        </li>
+    </ul>
+</body>
+</html>
