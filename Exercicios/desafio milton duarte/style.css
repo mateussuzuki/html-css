@@ -24,8 +24,32 @@ header p{
 header a{
     text-decoration: none;
     color: white;
+    font-weight: bold;
 }
 header a:hover{
     text-decoration: underline;
     color: gray;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+
+}
+
+section.normal{
+    background-color: white;
+}
+section.normal p{
+    font-weight: bold;
+}
+
+section.imagem p{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.158);
+}
+section.imagem{
+    background-image: url(imagens/background001.jpg);
+    background-size: 100%;
 }
