@@ -60,3 +60,18 @@ article > p {
     margin-bottom: 20px;
     text-indent: 20px;
 }
+
+span#burguer {
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-top: 2px solid black;
+}
+
+span#burguer:hover {
+    background-color: white;
+    color: black;
+}
