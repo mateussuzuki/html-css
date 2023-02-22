@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+/*
+768px  992px
+*/
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px;
+    margin: 0px;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section {
+    width: 30%;
+    height: 100%;
+    
+}
+
